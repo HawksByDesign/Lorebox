@@ -1,0 +1,60 @@
+:root {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #1c1c1f;
+    --bg-secondary: #141414;
+}
+
+body {
+    background: var(--bg-primary);
+}
+
+/* Does anyone know an easier way to manage custom fonts?
+CSS Loves to make things as difficult as possible.
+If you do, dear anonymous Github user, please make a 
+pull request! */
+
+@font-face {
+    font-family: 'DINPro-Light';
+    src: url('./Fonts/DINPro/DINPro-Light tr.ttf')
+}
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('./Fonts/DINPro/DINPro-Medium tr.ttf')
+}
+
+@font-face {
+    font-family: 'DINPro-Regular';
+    src: url('./Fonts/DINPro/DINPro-Regular tr.ttf')
+}
+
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('./Fonts/DINPro/DINPro-Bold tr.ttf')
+}
+
+@font-face {
+    font-family: 'DINPro-Black';
+    src: url('./Fonts/DINPro/DINPro-Black tr.ttf')
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/Gotham/Metropolis-Regular.otf');
+}
+p {
+    font-family: Gotham;
+    text-align: Left;
+    font-size: 15px;
+    color: var(--text-primary)
+}
+
+h1 {
+    font-family: 'DINPro-Black';
+    font-weight: Bold;
+    font-size: 3rem;
+    text-align: Left;
+    color: var(--text-primary)
+}

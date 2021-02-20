@@ -1,0 +1,27 @@
+{
+  "name": "worldbox",
+  "version": "1.0.0",
+  "description": "A program that is used to create a custom database of information, designed for storywriting.",
+  "main": "index.js",
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.6"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbithawk256/Lorebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabbithawk256/Lorebox/issues"
+  },
+  "homepage": "https://github.com/rabbithawk256/Lorebox#readme"
+}
