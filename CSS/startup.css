@@ -1,0 +1,19 @@
+
+.NextButton {
+	background-color:#6b6b6b;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:13px 43px;
+	text-decoration:none;
+}
+.NextButton:hover {
+	background-color:#9e9e9e;
+}
+.NextButton:active {
+	position:relative;
+	top:1px;
+}

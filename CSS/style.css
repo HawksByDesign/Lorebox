@@ -1,0 +1,13 @@
+@import url("./fonts.css");
+@import url("./startup.css");
+:root {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #1c1c1f;
+    --bg-secondary: #141414;
+}
+
+body {
+    background: var(--bg-primary);
+}
+
