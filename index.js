@@ -9,8 +9,8 @@ let mainWindow
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1364,
+    height: 791,
     frame: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
@@ -20,7 +20,12 @@ function createWindow() {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('load.html')
+  mainWindow.loadFile('setup.html')
+
+  // Stops the user from decreasing the viewport's size too low.
+  // If you remove this, here be dragons!
+
+  mainWindow.setMinimumSize(800, 600)
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
